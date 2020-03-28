@@ -36,7 +36,7 @@ while True:
                     print(a['milk'][1] + Sold_out)
             else:
                 print(No_money)
-        else: #음료를 고를떄 범위안에서 선택을 하지 않은 경우
+        else: #음료를  고를떄 범위안에서 선택을 하지 않은 경우
             print(Error) 
     else: #돈을 400원 보다 적게 넣었을떄
         print("돈이 부족합니다. 최소한 %d원은 더 넣어주세요." % (400 - money))
