@@ -9,7 +9,7 @@ while True:
     if money >= 400:
         print("콜라 1번, 펩시 2번, 우유 3번")
         select = int(input("음료를 골라주세요."))
-        if select == 1: #콜라 선택
+        if select == 1: #콜라 선
             if money >= 600:
                 if a['cola'][0] != 0:
                     a['cola'][0] = a['cola'][0]-1
@@ -18,7 +18,7 @@ while True:
                     print(a['cola'][1] + Sold_out)
             else:
                 print(No_money) 
-        elif select == 2: #펩시 선택
+        elif select == 2: #펩시 선택  
             if money >= 500:
                 if a['pepsi'][0] != 0:
                     a['pepsi'][0] = a['pepsi'][0]-1

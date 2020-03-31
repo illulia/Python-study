@@ -12,7 +12,7 @@ while True:
                 a['cola'][0] = a['cola'][0]-1
                 print("콜라를 줍니다. 거스름돈은 %d원 입니다." % (money - 600))
             else:
-                print(a['cola'][1] + Sold_out)
+                print(a['cola'][1] + Sold_out) 
         elif select == 2:
             if a['pepsi'][0] != 0:
                 a['pepsi'][0] = a['pepsi'][0]-1
