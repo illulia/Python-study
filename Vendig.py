@@ -25,7 +25,7 @@ while True:
                     print(a['pepsi'][1] + Left_money % (money - 500))
                 else:
                     print(a['pepsi'][1] + Sold_out)
-            else:
+            else: 
                 print(No_money)
         elif select == 3: #우유 선택
             if money >= 400:
