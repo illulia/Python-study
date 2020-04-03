@@ -59,4 +59,4 @@ while True:
         print("돈이 부족합니다. 최소한 %d원은 더 넣어주세요." % (400 - money))
     if a['cola'][0] == a['pepsi'][0] == a['milk'][0] == 0:
         print("음료가 없습니다. 자판기를 종료합니다.") 
-        break
+        break 
