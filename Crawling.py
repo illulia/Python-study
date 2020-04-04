@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup #데이터 가져오기
 from urllib.request import urlopen
 
 with urlopen('https://en.wikipedia.org/wiki/Main_Page') as response:
