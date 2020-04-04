@@ -14,5 +14,6 @@ while True:
     else: #돈을 400원 보다 적게 넣었을떄
         print("돈이 부족합니다. 최소한 %d원은 더 넣어주세요." % (400 - money))
     if Vending.a[1][1][0] < 1 and Vending.a[2][1][0] < 1 and Vending.a[3][1][0] < 1: #음료가 없을 경우
-        print("음료가 없습니다. 자판기를 종료합니다.")
+        
+        print("음료가 없습니다. 자판기를 종료합니다.") 
         break
