@@ -18,10 +18,10 @@ def Classifi(cash,num):
             print(a[num][0] + Sold_out)
     else:
         print(No_money)
-
+        
 def manager(x,y):
     a[x][1][0] = a[x][1][0] + y
-    print("충전이 완료되었습니다.\n관리자 모드를 종료합니다") 
+    print("충전이 완료되었습니다.\n관리자 모드를 종료합니다")
     
         
 
